@@ -82,6 +82,6 @@ The formula to calculate drawdown:
 
 Drawdown = (cumulative returns/ running maximum) - 1
 
-To calculate the running maximum, we can use maximum() and accumulate() functions
+To calculate the running maximum, we can use maximum() and accumulate() functions.
 
 Thus, going long on the last 6 days of the month gives decent returns along with a low drawdowns in this strategy. Of course, changing factors such as the number of days or the ETFs could lead to significant changes in the maximum returns of this strategy.
