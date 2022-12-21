@@ -5,13 +5,13 @@ In this notebook, we will analyse a pattern in treasury bond prices. This patter
 ### 1. Read the data
 The close price data for the US Treasury Bond ETF is stored in the CSV file. To read a CSV file, we use read_csv method of pandas.
 
-We will be using the following three ETFs
+We will be using the following three ETFs:
 
-iShares 1-3 Year Treasury Bond ETF (SHY) - This ETF tracks the results of an index composed of U.S. Treasury bonds with remaining maturities between one and three years.
+- iShares 1-3 Year Treasury Bond ETF (SHY) - This ETF tracks the results of an index composed of U.S. Treasury bonds with remaining maturities between one and three years.
 
-iShares 7-10 Year Treasury Bond ETF (IEF) - This ETF tracks the results of an index composed of U.S. Treasury bonds with remaining maturities between seven and ten years.
+- iShares 7-10 Year Treasury Bond ETF (IEF) - This ETF tracks the results of an index composed of U.S. Treasury bonds with remaining maturities between seven and ten years.
 
-iShares 20+ Year Treasury Bond ETF - This ETF tracks the results of an index composed of U.S. Treasury bonds with remaining maturities greater than 20 years.
+- iShares 20+ Year Treasury Bond ETF - This ETF tracks the results of an index composed of U.S. Treasury bonds with remaining maturities greater than 20 years.
 
 Then we will use the pct.change() function to retrieve the daily returns of the three assets.
 
